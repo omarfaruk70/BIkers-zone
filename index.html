@@ -339,9 +339,9 @@
       <!-- Frequently Asked Question -->
       <section class="FAQ mt-24">
         <h2 class="text-center text-4xl font-semibold">Frequently Asked <span class="text-error">Question</span></h2>
-        <div class="hero min-h-screen bg-base-200">
-          <div class="hero-content flex-col md:flex-col-reverse lg:flex-row">
-            <img src="/images/others/faq.png" class="max-w-sm rounded-lg shadow-2xl" />
+        <div class="hero min-h-screen">
+          <div class="hero-content flex-col gap-20 md:flex-col-reverse lg:flex-row">
+            <img src="/images/others/faq.png" class="lg:max-w-sm md:max-w-1/2 rounded-lg shadow-2xl" />
             <div>
               <div class="collapse collapse-arrow ">
                   <input type="radio" name="my-accordion-2" checked="checked"> 
@@ -395,7 +395,40 @@
         </div>
       </section>
     </main>
-    <footer>
+    <!-- footer -->
+    <footer class="footer  lg:px-52 bg-base-200 text-base-content">
+      <div>
+        <span class="footer-title">Services</span> 
+        <a class="link link-hover">Branding</a> 
+        <a class="link link-hover">Design</a> 
+        <a class="link link-hover">Marketing</a> 
+        <a class="link link-hover">Advertisement</a>
+      </div> 
+      <div>
+        <span class="footer-title">Company</span> 
+        <a class="link link-hover">About us</a> 
+        <a class="link link-hover">Contact</a> 
+        <a class="link link-hover">Jobs</a> 
+        <a class="link link-hover">Press kit</a>
+      </div> 
+      <div>
+        <span class="footer-title">Legal</span> 
+        <a class="link link-hover">Terms of use</a> 
+        <a class="link link-hover">Privacy policy</a> 
+        <a class="link link-hover">Cookie policy</a>
+      </div> 
+      <div>
+        <span class="footer-title">Newsletter</span> 
+        <div class="form-control w-80">
+          <label class="label">
+            <span class="label-text">Enter your email address</span>
+          </label> 
+          <div class="relative">
+            <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" /> 
+            <button class="btn btn-error text-white absolute top-0 right-0 rounded-l-none">Subscribe</button>
+          </div>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
